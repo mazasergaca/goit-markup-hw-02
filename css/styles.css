@@ -1,0 +1,128 @@
+:root {
+  --primary-text-color: #757575;
+  --primary-bgc: #e5e5e5;
+  --primary-black-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-bgc: #2f303a;
+  --primary-white-color: #ffffff;
+  --white-transparent-color: rgba(255, 255, 255, 0.6);
+  --secondary-color: #f5f4fa;
+}
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+
+  font-family: roboto;
+}
+
+/* цвет основного текста #212121
+вторичный цвет текста rgba#757575
+белый #FFFFFF
+акцент #2196F3
+белый прозраяный rgba(255, 255, 255, 0,6)
+основной цвет фона #E5E5E5
+вторичный фон #F5F4FA
+вторичный фон #2F303A */
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* header */
+
+/* Logo */
+.logo {
+  color: var(--primary-black-color);
+
+  font-family: Raleway;
+}
+.logo-text {
+  color: var(--accent-color);
+}
+/* site-nav */
+
+.site-nav .link {
+  color: var(--primary-black-color);
+}
+.link.primary {
+  color: var(--accent-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* auth-nav */
+
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+/* main */
+.button {
+  background-color: var(--secondary-color);
+  color: var(--primary-black-color);
+  border: none;
+}
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.button:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.section-title {
+  color: var(--primary-black-color);
+}
+
+/* hero */
+.hero {
+  background-color: var(--secondary-bgc);
+}
+.hero-title {
+  color: var(--primary-white-color);
+}
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--primary-white-color);
+  color: var(--accent-color);
+}
+
+/* team */
+.team-section {
+  background-color: var(--secondary-color);
+}
+/* footer */
+.footer {
+  background-color: var(--secondary-bgc);
+}
+.address .link {
+  color: var(--white-transparent-color);
+}
+.address .link:hover,
+.address .link:focus {
+  color: var(--accent-color);
+}
+
+.footer-logo {
+  color: var(--primary-white-color);
+
+  font-family: Raleway;
+}
+.address-link {
+  color: var(--primary-white-color);
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
