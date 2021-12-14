@@ -86,13 +86,13 @@ body {
   font-size: 16px;
   line-height: 1.6;
   font-weight: 500;
-
 }
 .button.primary {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
-.button:hover {
+.button:hover,
+.button:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 }
@@ -111,12 +111,10 @@ body {
   line-height: 2;
   font-weight: 700;
   letter-spacing: 0.06em;
-
 }
 .main-section .text {
   font-size: 16px;
   line-height: 1.87;
-
 }
 
 /* hero */
@@ -200,7 +198,7 @@ body {
 }
 .address .address-link {
   color: var(--primary-white-color);
-
+}
 .address-link:hover,
 .address-link:focus {
   color: var(--accent-color);
